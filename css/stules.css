@@ -241,6 +241,7 @@ button {
     --advice:#E7E9FC; 
     --green: #31D0AA;
     --svg: #8E8F99;
+    --blackk:#000000;
   }
 
 .web{
@@ -632,9 +633,9 @@ button {
     padding: 0;
     border: none;
     border-radius: 50%;
-    background-color: var(--accent-bg-cl);
+    background-color: var(--advice);
   }
 
   .modal-icon {
-    fill: var(--light-bg-cl);
+    fill: var(--blackk);
   }
