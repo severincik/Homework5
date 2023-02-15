@@ -90,7 +90,8 @@ button {
 }
 
 .icon{
-    
+    align-items: center;
+    justify-content: center;
 }
 
 .icon:hover{
