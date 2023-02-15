@@ -286,8 +286,6 @@ button {
 .group-of-icons{
     display: flex;
     gap: 24px;
-    justify-content: center;
-    align-items: center;
 }
 
 
@@ -299,6 +297,8 @@ button {
     border: 1px solid var(--svg);
     border-radius: 4px;
     fill: var(--svg);
+    justify-content: center;
+    align-items: center;
 }
 
 .link-svg:hover,
