@@ -290,29 +290,26 @@ button {
     align-items: center;
 }
 
-.group-icons{
+
+
+.link-svg{ 
+    display: block;
     width: 168px;
     height: 88px;
     border: 1px solid var(--svg);
     border-radius: 4px;
-}
-
-.link-svg{
     fill: var(--svg);
 }
 
 .link-svg:hover,
 .link-svg:focus{
+    border: 1px solid var(--link);
+    border-radius: 4px;
     color: var(--link);
     transition: 255ms ;
 }
 
-.group-icons:hover,
-.group-icons:focus{
-    border: 1px solid var(--link);
-    border-radius: 4px;
-    transition: 255ms ;
-}
+
 
 .container-header{
     display: flex;
