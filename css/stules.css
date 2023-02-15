@@ -292,7 +292,7 @@ button {
 
 
 .link-svg{ 
-    display: block;
+    display: flex;
     width: 168px;
     height: 88px;
     border: 1px solid var(--svg);
