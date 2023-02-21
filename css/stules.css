@@ -25,6 +25,7 @@ ul {
 
 .image:hover .overlay {
     transform: translatex(0);
+    transition-timing-function: cubic-bezier(0, 0, 1, 0);
     transition: 255ms ;
 }
 
@@ -38,6 +39,7 @@ ul {
   
     transform: translatey(100%);
     transition: transform 250ms ease;
+    transition-timing-function: cubic-bezier(0, 0, 1, 0);
 }
 
 .overlay > p {
@@ -59,6 +61,8 @@ img {
 }
 button {
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0, 0, 1, 0);
 }
 .link {
   text-decoration: none;
@@ -82,7 +86,7 @@ button {
 }
 
 .socials-item{
-    
+
 }
 
 .icon-content{
@@ -97,6 +101,7 @@ button {
 .icon:hover{
     fill: var(--link);
     transition: 255ms ;
+    transition-timing-function: cubic-bezier(0, 0, 1, 0);
 }
 
 .socials-link {
@@ -108,12 +113,15 @@ button {
     height: 40px;
     background-color: var(--web);
     border-radius: 50%;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0, 0, 1, 0);
 }
 
 .socials-link:hover,
 .socials-link:focus{
     background: var(--link);
     transition: 255ms ;
+    transition-timing-function: cubic-bezier(0, 0, 1, 0);
 }
 
 .socials {
@@ -158,7 +166,8 @@ button {
 }
 
 .contacts-link{
-    
+    transition-timing-function: cubic-bezier(0, 0, 1, 0);
+    transition-delay: 255ms;
 }
 
 
@@ -300,6 +309,8 @@ button {
     fill: var(--svg);
     justify-content: center;
     align-items: center;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0, 0, 1, 0);
 }
 
 .link-svg:hover,
@@ -309,6 +320,7 @@ button {
     color: var(--link);
     fill: var(--link);
     transition: 255ms ;
+    transition-timing-function: cubic-bezier(0, 0, 1, 0);
 }
 
 
@@ -322,12 +334,11 @@ button {
     display: block;
     position: relative;
     transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2,);
+    transition-timing-function: cubic-bezier(0, 0, 1, 0);
     color: var(--black);
     font-weight: 500;
     font-size: 16px;
-    
+    transition-duration: 250ms;
 }
 
 .current::after{
@@ -344,7 +355,8 @@ button {
 .menu:hover,
 .menu:focus{
     color: var(--link);
-    transition: 255ms ;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0, 0, 1, 0);
 }
 
 .link-card{
@@ -356,11 +368,14 @@ button {
 .link-card:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transition: 255ms ;
+    transition-timing-function: cubic-bezier(0, 0, 1, 0);
 }
 
-.link-card:hover .overlay {
+.link-card:hover .overlay,
+.link-card:focus .overlay {
     transform: translatex(0);
     transition: 255ms ;
+    transition-timing-function: cubic-bezier(0, 0, 1, 0);
 }
 
 .contacts-link{
@@ -375,6 +390,7 @@ button {
 .contacts-link:focus{
     color: var(--web);
     transition: 255ms ;
+    transition-timing-function: cubic-bezier(0, 0, 1, 0);
 }
 
 .button{
@@ -427,12 +443,14 @@ button {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border: 1px solid var(--link);
     transition: 255ms ;
+    transition-timing-function: cubic-bezier(0, 0, 1, 0);
 }
 
 .filter-button:hover,
 .filter-button:focus{
     background-color: var(--link);
     transition: 255ms ;
+    transition-timing-function: cubic-bezier(0, 0, 1, 0);
 }
 
 
@@ -577,12 +595,15 @@ button {
     height: 40px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0, 0, 1, 0);
 }
 
 .socials-footer:hover,
 .socials-footer:focus{
     background: var(--green);
     transition: 255ms ;
+    transition-timing-function: cubic-bezier(0, 0, 1, 0);
 }
 
 .visually-hidden { 
